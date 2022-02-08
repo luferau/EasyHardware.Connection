@@ -1,7 +1,7 @@
 ﻿namespace EasyHardware.Connection.Core.Enums
 {
     /// <summary>
-    /// Defines the condition under which the library considers that a response has been received
+    /// Defines the condition under which the library considers that a response has been received.
     /// </summary>
     public enum AnswerReceiveConditionType
     {
