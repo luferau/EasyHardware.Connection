@@ -2,9 +2,9 @@
 using System.IO.Ports;
 using System.Linq;
 using System.Management;
-using EasyHardware.Connection.Services.Interfaces.SerialPorts;
+using EasyHardware.Connection.Services.Interfaces.Serial;
 
-namespace EasyHardware.Connection.Services.Windows.SerialPorts
+namespace EasyHardware.Connection.Services.Windows.Serial
 {
     public class WindowsSerialPortService : ISerialPortService
     {

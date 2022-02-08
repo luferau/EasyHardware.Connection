@@ -1,8 +1,8 @@
 ﻿using System;
 using System.Management;
-using EasyHardware.Connection.Services.Interfaces.SerialPorts;
+using EasyHardware.Connection.Services.Interfaces.Serial;
 
-namespace EasyHardware.Connection.Services.Windows.SerialPorts
+namespace EasyHardware.Connection.Services.Windows.Serial
 {
     public class SerialPortInfo : ISerialPortInfo
     {

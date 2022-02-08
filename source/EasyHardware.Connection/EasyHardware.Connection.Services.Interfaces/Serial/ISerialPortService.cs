@@ -1,6 +1,6 @@
 ﻿using System.Collections.Generic;
 
-namespace EasyHardware.Connection.Services.Interfaces.SerialPorts
+namespace EasyHardware.Connection.Services.Interfaces.Serial
 {
     public interface ISerialPortService
     {
