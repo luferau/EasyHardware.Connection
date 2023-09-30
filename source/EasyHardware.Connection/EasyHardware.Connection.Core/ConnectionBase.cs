@@ -57,7 +57,7 @@ namespace EasyHardware.Connection.Core
             set => this.SpecifiedByteDataPattern = value.ToAsciiBytes();
         }
 
-        public byte[] SpecifiedByteDataPattern { get; set; }
+        public byte[] SpecifiedByteDataPattern { get; set; } = Array.Empty<byte>();
 
         public int SpecifiedDataAmount { get; set; }
 
@@ -416,7 +416,6 @@ namespace EasyHardware.Connection.Core
         {
             this.StatusChanged?.Invoke(this, args);
         }
-
 
         public event EventHandler<CommunicationEventArgs> CommunicationEventOccurred;
 

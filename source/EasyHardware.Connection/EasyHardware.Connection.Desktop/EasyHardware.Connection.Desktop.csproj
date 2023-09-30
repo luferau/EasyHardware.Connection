@@ -12,4 +12,16 @@
     <ProjectReference Include="..\EasyHardware.Connection.Core\EasyHardware.Connection.Core.csproj" />
   </ItemGroup>
 
+  <ItemGroup>
+    <Reference Include="Ivi.Visa">
+      <HintPath>..\..\..\libraries\VISA.NET Shared Components 5.11.0\Ivi.Visa.dll</HintPath>
+    </Reference>
+    <Reference Include="NationalInstruments.Common">
+      <HintPath>..\..\..\libraries\NationalInstruments.Common.dll</HintPath>
+    </Reference>
+    <Reference Include="NationalInstruments.Visa">
+      <HintPath>..\..\..\libraries\NI VISA.NET 19.0\NationalInstruments.Visa.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+
 </Project>

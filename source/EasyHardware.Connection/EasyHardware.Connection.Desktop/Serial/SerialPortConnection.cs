@@ -67,8 +67,10 @@ namespace EasyHardware.Connection.Desktop.Serial
             try
             {
                 this._serialPort.Open();
-                this.OnStatusChanged(new ConnectionStatusEventArgs(
-                    ConnectionStateType.Opened,
+
+                this.OnStatusChanged(
+                    new ConnectionStatusEventArgs(
+                        ConnectionStateType.Opened,
                     $"Serial port {this._serialPort.PortName} successfully opened on baud rate: {this._serialPort.BaudRate}"));
 
                 return true;
@@ -76,6 +78,7 @@ namespace EasyHardware.Connection.Desktop.Serial
             catch (Exception exp)
             {
                 ExceptionHandler($"Serial port {this._serialPort.PortName} open error.\n{exp.Message}", "Exception");
+
                 return false;
             }
         }

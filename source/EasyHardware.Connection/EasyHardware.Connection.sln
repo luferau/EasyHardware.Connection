@@ -1,15 +1,17 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio Version 16
-VisualStudioVersion = 16.0.32106.194
+# Visual Studio Version 17
+VisualStudioVersion = 17.7.34031.279
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "EasyHardware.Connection.Core", "EasyHardware.Connection.Core\EasyHardware.Connection.Core.csproj", "{28F4C86B-FC60-47EB-9975-41BD93F2EB55}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EasyHardware.Connection.Services.Interfaces", "EasyHardware.Connection.Services.Interfaces\EasyHardware.Connection.Services.Interfaces.csproj", "{242C2242-0265-42B7-AF56-69A3AF7D9E73}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "EasyHardware.Connection.Services.Interfaces", "EasyHardware.Connection.Services.Interfaces\EasyHardware.Connection.Services.Interfaces.csproj", "{242C2242-0265-42B7-AF56-69A3AF7D9E73}"
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "EasyHardware.Connection.Services.Windows", "EasyHardware.Connection.Services.Windows\EasyHardware.Connection.Services.Windows.csproj", "{2E081DAE-F281-4D7A-BB79-90316375F177}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EasyHardware.Connection.Desktop", "EasyHardware.Connection.Desktop\EasyHardware.Connection.Desktop.csproj", "{5886343C-5552-46AA-9249-4B4CDCFA73E9}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "EasyHardware.Connection.Desktop", "EasyHardware.Connection.Desktop\EasyHardware.Connection.Desktop.csproj", "{5886343C-5552-46AA-9249-4B4CDCFA73E9}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EasyHardware.Examples", "EasyHardware.Examples\EasyHardware.Examples.csproj", "{2917040F-6000-4DDA-A441-DA3767EAC877}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -33,6 +35,10 @@ Global
 		{5886343C-5552-46AA-9249-4B4CDCFA73E9}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{5886343C-5552-46AA-9249-4B4CDCFA73E9}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{5886343C-5552-46AA-9249-4B4CDCFA73E9}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2917040F-6000-4DDA-A441-DA3767EAC877}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2917040F-6000-4DDA-A441-DA3767EAC877}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2917040F-6000-4DDA-A441-DA3767EAC877}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2917040F-6000-4DDA-A441-DA3767EAC877}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
