@@ -359,7 +359,7 @@ namespace EasyHardware.Connection.Core
                         break;
 
                     case AnswerReceiveConditionType.NewLine:
-                        if (this._inBuffer.Contains(0x0D) && this._inBuffer.Contains(0x0A))
+                        if (this._inBuffer.Contains(0x0D) || this._inBuffer.Contains(0x0A))
                         {
                             answerReceived = true;
                         }

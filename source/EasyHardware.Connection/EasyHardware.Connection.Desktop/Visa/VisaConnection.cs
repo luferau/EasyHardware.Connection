@@ -2,6 +2,7 @@
 using System;
 using EasyHardware.Connection.Core;
 using EasyHardware.Connection.Core.Enums;
+using Ivi.Visa;
 using NationalInstruments.Visa;
 
 namespace EasyHardware.Connection.Desktop.Visa
@@ -76,6 +77,13 @@ namespace EasyHardware.Connection.Desktop.Visa
         }
 
         #endregion
+
+        protected override void BeforeWriteRead(bool discardBuffers = true)
+        {
+            base.BeforeWriteRead(discardBuffers);
+
+            _mbSession.Clear();
+        }
 
         protected override void WriteInternal(byte[] data)
         {
